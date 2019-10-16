@@ -5,7 +5,7 @@ import { Face } from '@material-ui/icons';
 function Home() {
   return (
     <Grid container justify="center">
-      <Grid xs={11} md={8} style={{ paddingTop: '20vh' }}>
+      <Grid item xs={11} md={8} style={{ paddingTop: '20vh' }}>
         <Typography>
           Chip Demo
         </Typography>
